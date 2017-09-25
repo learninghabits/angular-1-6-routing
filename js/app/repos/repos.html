@@ -1,0 +1,11 @@
+<table>
+    <th>
+
+    </th>
+    <tr ng-repeat="repo in repos | orderBy:name">
+        <td>{{repo.name}}</td>
+        <td>{{repo.language}}</td>
+    </tr>   
+</table>
+<br/>
+ <a href="/">Back</a>
